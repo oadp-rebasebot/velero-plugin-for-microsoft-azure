@@ -1,6 +1,6 @@
 module github.com/vmware-tanzu/velero-plugin-for-microsoft-azure
 
-go 1.22.6
+go 1.22.5
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.11.1
@@ -89,3 +89,5 @@ replace (
 	cloud.google.com/go => cloud.google.com/go v0.104.0
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
+
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20240822153644-9ac863aaa452
