@@ -79,7 +79,7 @@ require (
 	golang.org/x/net v0.47.0 // indirect
 	golang.org/x/oauth2 v0.33.0 // indirect
 	golang.org/x/sync v0.18.0 // indirect
-	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/term v0.37.0 // indirect
 	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
@@ -109,4 +109,4 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
 
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260219202759-5cf28471570d
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260309143310-b283a9b047e0
