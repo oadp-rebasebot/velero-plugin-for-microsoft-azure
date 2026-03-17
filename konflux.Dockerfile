@@ -6,7 +6,7 @@ ENV GOEXPERIMENT strictfipsruntime
 RUN CGO_ENABLED=1 GOOS=linux go build -v -mod=mod -tags strictfipsruntime -o /workspace/bin/velero-plugin-for-microsoft-azure ./velero-plugin-for-microsoft-azure
 
 FROM registry.redhat.io/ubi9/ubi:latest
-RUN dnf -y install openssl && dnf -y reinstall tzdata && dnf clean all
+RUN dnf -y install openssl && dnf clean all
 RUN mkdir /plugins
 COPY --from=builder /workspace/bin/velero-plugin-for-microsoft-azure /plugins/
 COPY LICENSE /licenses/
