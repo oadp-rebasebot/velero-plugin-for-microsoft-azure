@@ -21,7 +21,7 @@ require (
 	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.13.1 // indirect
 	github.com/Azure/azure-sdk-for-go/sdk/resourcemanager/storage/armstorage v1.8.1 // indirect
 	github.com/joho/godotenv v1.4.0 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260523011958-0a33c5d7ca68 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260526163538-3dc84a4a5aaa // indirect
 )
 
 require (
@@ -106,6 +106,6 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
 
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260630214535-9f9d4dc4bf29
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260701234155-b7b4cdc9cc18
 
 exclude github.com/kcp-dev/kcp/sdk v0.0.0-00010101000000-000000000000
