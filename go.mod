@@ -119,9 +119,12 @@ require (
 
 exclude github.com/kcp-dev/kcp/sdk v0.0.0-00010101000000-000000000000
 
+replace cloud.google.com/go => cloud.google.com/go v0.104.0
+
+replace k8s.io/kubectl => k8s.io/kubectl v0.25.2
 replace (
 	cloud.google.com/go => cloud.google.com/go v0.104.0
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
-
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260716151240-e2178e7e7c29
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero oadp-dev
+replace github.com/vmware-tanzu/velero/pkg/apis => github.com/openshift/velero/pkg/apis oadp-dev
