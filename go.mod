@@ -11,7 +11,7 @@ require (
 	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/pflag v1.0.10
 	github.com/stretchr/testify v1.11.1
-	github.com/vmware-tanzu/velero v1.18.3
+	github.com/vmware-tanzu/velero v1.18.4
 	k8s.io/api v0.33.12
 	k8s.io/apimachinery v0.33.12
 	sigs.k8s.io/azuredisk-csi-driver v1.26.0
@@ -116,4 +116,4 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
 
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260922232025-4365110ccbf8
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20260929121502-33ae2d9f3152
