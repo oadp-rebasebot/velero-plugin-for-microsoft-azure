@@ -92,4 +92,4 @@ replace (
 	k8s.io/kubectl => k8s.io/kubectl v0.25.2
 )
 
-replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20261016203254-8ee6993b52f5
+replace github.com/vmware-tanzu/velero => github.com/openshift/velero v0.10.2-0.20261021172656-95f0016887d9
